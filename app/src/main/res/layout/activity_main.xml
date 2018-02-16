@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#5D4037"
+    android:background="@color/colorPrimaryDark"
     android:orientation="vertical"
     tools:context="com.example.android.businesscard.MainActivity">
 
@@ -14,27 +14,55 @@
         android:layout_weight="0.5"
         android:text="@string/furniture_studio"
         android:textAlignment="center"
-        android:textColor="#BCAAA4"
+        android:textColor="@color/fontColor"
         android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:text="@string/description"
+        android:textAlignment="center"
+        android:textColor="@color/fontColor"
+        android:textSize="15sp" />
 
     <ImageView
         android:id="@+id/furniture"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
-        android:layout_weight="2"
+        android:layout_weight="1.5"
         android:src="@drawable/furniture" />
 
-    <TextView
-        android:id="@+id/address"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginTop="10dp"
-        android:layout_weight="0.5"
-        android:fontFamily="serif-monospace"
-        android:text="@string/address"
-        android:textAlignment="center"
-        android:textColor="#BCAAA4"
-        android:textSize="20sp" />
+        android:layout_weight="0.5">
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="serif-monospace"
+            android:text="@string/address"
+            android:textAlignment="center"
+            android:textColor="@color/fontColor"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/opening_hours"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="serif-monospace"
+            android:text="@string/opening_hours"
+            android:textAlignment="center"
+            android:textColor="@color/fontColor"
+            android:textSize="15sp" />
+
+
+    </LinearLayout>
 
     <LinearLayout
         android:id="@+id/center_point"
@@ -62,6 +90,7 @@
                 android:drawableStart="@drawable/phone"
                 android:text="@string/call_us"
                 android:textSize="20sp"
+                android:textColor="@color/colorPrimaryDark"
                 android:background="@drawable/round_button"/>
 
             <TextView
@@ -69,7 +98,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/phone_number"
                 android:textAlignment="center"
-                android:textColor="#BCAAA4"
+                android:textColor="@color/fontColor"
                 android:textSize="15sp"
                 android:fontFamily="serif-monospace"/>
 
@@ -99,6 +128,7 @@
                 android:drawableStart="@drawable/mail"
                 android:text="@string/write_us"
                 android:textSize="20sp"
+                android:textColor="@color/colorPrimaryDark"
                 android:background="@drawable/round_button"/>
 
             <TextView
@@ -106,7 +136,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/email_address"
                 android:textAlignment="center"
-                android:textColor="#BCAAA4"
+                android:textColor="@color/fontColor"
                 android:textSize="15sp"
                 android:fontFamily="serif-monospace"/>
 

@@ -1,7 +1,9 @@
 <resources>
     <string name="app_name">BusinessCard</string>
     <string name="furniture_studio">\"Drewutnia\" \nFurniture Studio</string>
-    <string name="address">Ul. Mickiewicza 1\n00-002 Kraków</string>
+    <string name="description">Our modern and original studio designs furniture crafted from solid hardwoods. We can create everything what you\'ve ever dreamt about.</string>
+    <string name="address">Address:\nMickiewicza St.1\n00-002 Kraków</string>
+    <string name="opening_hours">Opening Hours:\nMon-Fri: 9.00-17.00\nSat:9.00-12.00\nSun: Closed</string>
     <string name="call_us">Call Us!</string>
     <string name="phone_number">+00 123-456-789</string>
     <string name="write_us">Write Us!</string>
