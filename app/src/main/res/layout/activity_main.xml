@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/background_dark"
+    android:background="#5D4037"
     android:orientation="vertical"
     tools:context="com.example.android.businesscard.MainActivity">
 
@@ -14,7 +14,7 @@
         android:layout_weight="0.5"
         android:text="@string/furniture_studio"
         android:textAlignment="center"
-        android:textColor="#D0D0D0"
+        android:textColor="#BCAAA4"
         android:textSize="30sp" />
 
     <ImageView
@@ -33,7 +33,7 @@
         android:fontFamily="serif-monospace"
         android:text="@string/address"
         android:textAlignment="center"
-        android:textColor="#FAFAFA"
+        android:textColor="#BCAAA4"
         android:textSize="20sp" />
 
     <LinearLayout
@@ -49,19 +49,29 @@
             android:layout_weight="1"
             android:orientation="vertical">
 
+            <Button
+                style="@android:style/Widget.Holo.Light.Button.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="15dp"
+                android:drawableLeft="@drawable/phone"
+                android:drawablePadding="15dp"
+                android:padding="7dp"
+                android:drawableStart="@drawable/phone"
+                android:text="@string/call_us"
+                android:textSize="20sp"
+                android:background="@drawable/round_button"/>
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/call_us"
+                android:text="@string/phone_number"
                 android:textAlignment="center"
-                android:textColor="#D0D0D0"
-                android:textSize="20sp"
-                android:layout_marginBottom="20dp"/>
-
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center" />
+                android:textColor="#BCAAA4"
+                android:textSize="15sp"
+                android:fontFamily="serif-monospace"/>
 
         </LinearLayout>
 
@@ -76,23 +86,29 @@
             android:layout_weight="1"
             android:orientation="vertical">
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/write_us"
-                android:textAlignment="center"
-                android:textColor="#D0D0D0"
-                android:textSize="20sp"
-                android:layout_marginBottom="20dp"/>
-
             <Button
+                style="@android:style/Widget.Holo.Light.Button.Small"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="Write Us"
-                android:textSize="20sp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="15dp"
+                android:drawableLeft="@drawable/mail"
+                android:drawablePadding="15dp"
+                android:padding="7dp"
                 android:drawableStart="@drawable/mail"
-                android:drawableLeft="@drawable/mail" />
+                android:text="@string/write_us"
+                android:textSize="20sp"
+                android:background="@drawable/round_button"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/email_address"
+                android:textAlignment="center"
+                android:textColor="#BCAAA4"
+                android:textSize="15sp"
+                android:fontFamily="serif-monospace"/>
 
         </LinearLayout>
 

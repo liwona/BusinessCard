@@ -1,7 +1,9 @@
 <resources>
     <string name="app_name">BusinessCard</string>
-    <string name="furniture_studio">Furniture Studio \nDrewutnia</string>
+    <string name="furniture_studio">\"Drewutnia\" \nFurniture Studio</string>
     <string name="address">Ul. Mickiewicza 1\n00-002 Kraków</string>
-    <string name="call_us">Call Us!\n+00 123-456-789</string>
-    <string name="write_us">Write Us!\nfurniture@studio.eu</string>
+    <string name="call_us">Call Us!</string>
+    <string name="phone_number">+00 123-456-789</string>
+    <string name="write_us">Write Us!</string>
+    <string name="email_address">furniture@studio.eu</string>
 </resources>
