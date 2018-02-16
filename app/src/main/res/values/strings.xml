@@ -8,4 +8,6 @@
     <string name="phone_number">+00 123-456-789</string>
     <string name="write_us">Write Us!</string>
     <string name="email_address">furniture@studio.eu</string>
+    <string name="email_subject">Email Subject</string>
+    <string name="email_message">Email Message</string>
 </resources>

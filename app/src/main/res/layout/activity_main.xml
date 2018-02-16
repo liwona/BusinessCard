@@ -91,7 +91,8 @@
                 android:text="@string/call_us"
                 android:textSize="20sp"
                 android:textColor="@color/colorPrimaryDark"
-                android:background="@drawable/round_button"/>
+                android:background="@drawable/round_button"
+                android:onClick="phoneCall"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -129,7 +130,8 @@
                 android:text="@string/write_us"
                 android:textSize="20sp"
                 android:textColor="@color/colorPrimaryDark"
-                android:background="@drawable/round_button"/>
+                android:background="@drawable/round_button"
+                android:onClick="sendEmail"/>
 
             <TextView
                 android:layout_width="match_parent"
