@@ -84,24 +84,24 @@
                 android:layout_gravity="center"
                 android:layout_marginBottom="15dp"
                 android:layout_marginTop="15dp"
+                android:background="@drawable/round_button"
                 android:drawableLeft="@drawable/phone"
                 android:drawablePadding="15dp"
-                android:padding="7dp"
                 android:drawableStart="@drawable/phone"
+                android:onClick="phoneCall"
+                android:padding="7dp"
                 android:text="@string/call_us"
-                android:textSize="20sp"
                 android:textColor="@color/colorPrimaryDark"
-                android:background="@drawable/round_button"
-                android:onClick="phoneCall"/>
+                android:textSize="20sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="serif-monospace"
                 android:text="@string/phone_number"
                 android:textAlignment="center"
                 android:textColor="@color/fontColor"
-                android:textSize="15sp"
-                android:fontFamily="serif-monospace"/>
+                android:textSize="15sp" />
 
         </LinearLayout>
 
@@ -123,24 +123,24 @@
                 android:layout_gravity="center"
                 android:layout_marginBottom="15dp"
                 android:layout_marginTop="15dp"
+                android:background="@drawable/round_button"
                 android:drawableLeft="@drawable/mail"
                 android:drawablePadding="15dp"
-                android:padding="7dp"
                 android:drawableStart="@drawable/mail"
+                android:onClick="sendEmail"
+                android:padding="7dp"
                 android:text="@string/write_us"
-                android:textSize="20sp"
                 android:textColor="@color/colorPrimaryDark"
-                android:background="@drawable/round_button"
-                android:onClick="sendEmail"/>
+                android:textSize="20sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="serif-monospace"
                 android:text="@string/email_address"
                 android:textAlignment="center"
                 android:textColor="@color/fontColor"
-                android:textSize="15sp"
-                android:fontFamily="serif-monospace"/>
+                android:textSize="15sp" />
 
         </LinearLayout>
 

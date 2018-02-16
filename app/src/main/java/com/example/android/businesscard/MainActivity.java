@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    public void sendEmail (View view) {
+    public void sendEmail(View view) {
         String emailAddress = getString(R.string.email_address);
         String emailSubject = getString(R.string.email_subject);
         String emailMessage = getString(R.string.email_message);
